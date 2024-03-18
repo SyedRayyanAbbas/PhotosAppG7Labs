@@ -1,5 +1,6 @@
 package com.example.photosapp;
 
+import android.content.Intent;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.content.Context;
@@ -38,6 +39,15 @@ public class PhotosAdapter extends RecyclerView.Adapter<PhotosAdapter.ViewHolder
         if (imageFile.exists()) {
             Glide.with(context).load(imageFile).into(holder.image);
         }
+
+        holder.image.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(context, ViewSinglePhoto.class);
+                intent.putExtra("imageFile", imageFile);
+                context.startActivity(intent);
+            }
+        });
     }
 
     @Override
