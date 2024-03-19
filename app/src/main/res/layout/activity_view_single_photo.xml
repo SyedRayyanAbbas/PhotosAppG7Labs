@@ -8,43 +8,12 @@
     tools:context=".ViewSinglePhoto">
 
     <ImageView
-        android:id="@+id/imageView5"
-        android:layout_width="28dp"
-        android:layout_height="28dp"
-        android:layout_marginStart="32dp"
-        android:layout_marginBottom="44dp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/baseline_edit_24" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/nunito_sans_black"
-        android:text="Edit"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView5"
-        app:layout_constraintStart_toStartOf="@+id/imageView5"
-        tools:layout_editor_absoluteY="693dp" />
-
-    <ImageView
         android:id="@+id/imageView7"
         android:layout_width="39dp"
         android:layout_height="33dp"
-        app:layout_constraintEnd_toStartOf="@+id/imageView8"
-        app:layout_constraintStart_toEndOf="@+id/imageView5"
         app:srcCompat="@drawable/baseline_share_24"
-        tools:layout_editor_absoluteY="658dp" />
-
-    <ImageView
-        android:id="@+id/imageView8"
-        android:layout_width="32dp"
-        android:layout_height="33dp"
-        app:srcCompat="@drawable/baseline_info_24"
-        tools:layout_editor_absoluteX="352dp"
-        tools:layout_editor_absoluteY="660dp" />
+        tools:layout_editor_absoluteX="186dp"
+        tools:layout_editor_absoluteY="627dp" />
 
     <TextView
         android:id="@+id/textView5"
@@ -55,21 +24,9 @@
         android:textColor="@color/black"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="@+id/imageView7"
-        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="@+id/imageView7"
-        tools:layout_editor_absoluteY="697dp" />
-
-    <TextView
-        android:id="@+id/textView6"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:fontFamily="@font/nunito_sans_black"
-        android:text="Details"
-        android:textColor="@color/black"
-        android:textSize="16sp"
-        app:layout_constraintEnd_toEndOf="@+id/imageView8"
-        app:layout_constraintStart_toStartOf="@+id/imageView8"
-        tools:layout_editor_absoluteY="697dp" />
+        tools:layout_editor_absoluteY="660dp" />
 
     <ImageView
         android:id="@+id/imageView9"
